@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://blog.geeklife.xyz/</loc>
+    <lastmod>2021-01-01T18:32:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.geeklife.xyz/post/</loc>
+    <lastmod>2021-01-01T18:32:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.geeklife.xyz/post/test/</loc>
+    <lastmod>2021-01-01T18:32:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.geeklife.xyz/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.geeklife.xyz/tags/</loc>
+  </url>
+  
+</urlset>
