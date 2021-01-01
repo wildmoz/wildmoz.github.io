@@ -6,23 +6,14 @@
     <description>Recent content on GeekLife</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 20:46:13 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Count</title>
-      <link>https://blog.geeklife.xyz/posts/count/</link>
-      <pubDate>Fri, 01 Jan 2021 20:46:13 +0800</pubDate>
-      
-      <guid>https://blog.geeklife.xyz/posts/count/</guid>
-      <description>&lt;p&gt;测试：&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Fri, 01 Jan 2021 20:51:32 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>https://blog.geeklife.xyz/posts/test/</link>
-      <pubDate>Fri, 01 Jan 2021 18:32:28 +0800</pubDate>
+      <pubDate>Fri, 01 Jan 2021 20:51:32 +0800</pubDate>
       
       <guid>https://blog.geeklife.xyz/posts/test/</guid>
-      <description>&lt;p&gt;test123&lt;/p&gt;</description>
+      <description>&lt;p&gt;字数测试:&lt;/p&gt;</description>
     </item>
     
   </channel>
