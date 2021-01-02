@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GeekLife</title>
-    <link>https://blog.geeklife.xyz/</link>
-    <description>Recent content on GeekLife</description>
+    <title>openssh on GeekLife</title>
+    <link>https://blog.geeklife.xyz/tags/openssh/</link>
+    <description>Recent content in openssh on GeekLife</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 13:45:08 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 13:45:08 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/tags/openssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aix_upgrade_openssh</title>
       <link>https://blog.geeklife.xyz/posts/aix_upgrade_openssh/</link>
@@ -18,15 +18,6 @@
 % mkdir /tmp/newopenssh
  3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.  Important Notes
 A) If you have an existing ssh configuration, make a copy of the /etc/ssh directory before installing the new ssh to preserve the ssh host keys.</description>
-    </item>
-    
-    <item>
-      <title>First_blog</title>
-      <link>https://blog.geeklife.xyz/posts/first_blog/</link>
-      <pubDate>Sat, 02 Jan 2021 09:46:46 +0800</pubDate>
-      
-      <guid>https://blog.geeklife.xyz/posts/first_blog/</guid>
-      <description>&lt;p&gt;经历了不平凡的2020，迎来了2021年。&lt;/p&gt;</description>
     </item>
     
   </channel>

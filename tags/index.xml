@@ -6,7 +6,25 @@
     <description>Recent content in Tags on GeekLife</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jan 2021 09:46:46 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jan 2021 13:45:08 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AIX</title>
+      <link>https://blog.geeklife.xyz/tags/aix/</link>
+      <pubDate>Sat, 02 Jan 2021 13:45:08 +0800</pubDate>
+      
+      <guid>https://blog.geeklife.xyz/tags/aix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openssh</title>
+      <link>https://blog.geeklife.xyz/tags/openssh/</link>
+      <pubDate>Sat, 02 Jan 2021 13:45:08 +0800</pubDate>
+      
+      <guid>https://blog.geeklife.xyz/tags/openssh/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Life</title>
       <link>https://blog.geeklife.xyz/tags/life/</link>
