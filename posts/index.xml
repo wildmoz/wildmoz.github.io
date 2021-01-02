@@ -5,24 +5,15 @@
     <link>https://blog.geeklife.xyz/posts/</link>
     <description>Recent content in Posts on GeekLife</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 Jan 2021 09:42:23 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Jan 2021 09:46:46 +0800</lastBuildDate><atom:link href="https://blog.geeklife.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test2</title>
-      <link>https://blog.geeklife.xyz/posts/test2/</link>
-      <pubDate>Sat, 02 Jan 2021 09:42:23 +0800</pubDate>
+      <title>First_blog</title>
+      <link>https://blog.geeklife.xyz/posts/first_blog/</link>
+      <pubDate>Sat, 02 Jan 2021 09:46:46 +0800</pubDate>
       
-      <guid>https://blog.geeklife.xyz/posts/test2/</guid>
-      <description>test11: 文字测试: hugoblog测试。</description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://blog.geeklife.xyz/posts/test/</link>
-      <pubDate>Fri, 01 Jan 2021 20:57:08 +0800</pubDate>
-      
-      <guid>https://blog.geeklife.xyz/posts/test/</guid>
-      <description>&lt;p&gt;测试字数：：&lt;/p&gt;</description>
+      <guid>https://blog.geeklife.xyz/posts/first_blog/</guid>
+      <description>经历了不平凡的2020，迎来了2021年。 在2020年，时间放缓，思考及渐渐清晰了一些人和事儿。希望在2021年能够有所突破和成长。 你好，2021！</description>
     </item>
     
   </channel>
