@@ -6,10 +6,10 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="aix_upgrade_openssh  Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link Create directory to hold openssl and openssh.   Example:
+<meta name="description" content="aix_upgrade_openssh  Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link download_link Create directory to hold openssl and openssh.   Example:
 % mkdir /tmp/newopenssl
 % mkdir /tmp/newopenssh
- 3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.  Important Notes
+ If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.   Important Notes
 A) If you have an existing ssh configuration, make a copy of the /etc/ssh directory before installing the new ssh to preserve the ssh host keys." />
 <meta name="keywords" content=", " />
 <meta name="robots" content="noodp" />
@@ -156,7 +156,8 @@ A) If you have an existing ssh configuration, make a copy of the /etc/ssh direct
   <div class="post-content"><div>
         <h2 id="aix_upgrade_openssh">aix_upgrade_openssh<a href="#aix_upgrade_openssh" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <ol>
-<li>Download the latest available &ldquo;OpenSSL or OpenSSH n.n.n&rdquo; for your AIX version from the following download link</li>
+<li>Download the latest available &ldquo;OpenSSL or OpenSSH n.n.n&rdquo; for your AIX version from the following download link
+<a href="https://www-01.ibm.com/marketing/iwm/platform/mrs/assets?source=aixbp">download_link</a></li>
 <li>Create directory to hold openssl and openssh.</li>
 </ol>
 <blockquote>
@@ -164,7 +165,9 @@ A) If you have an existing ssh configuration, make a copy of the /etc/ssh direct
 % mkdir /tmp/newopenssl<br>
 % mkdir /tmp/newopenssh</p>
 </blockquote>
-<h3 id="3-if-etcssh-exists-before-the-upgrade-of-openssh-or-aix-make-a-back-up-of-the-directory--skip-steps-3-and-9-10-if-openssh-is-not-installed">3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory.  Skip steps 3 and 9-10 if OpenSSH is not installed.<a href="#3-if-etcssh-exists-before-the-upgrade-of-openssh-or-aix-make-a-back-up-of-the-directory--skip-steps-3-and-9-10-if-openssh-is-not-installed" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<ol start="3">
+<li>If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory.  Skip steps 3 and 9-10 if OpenSSH is not installed.</li>
+</ol>
 <blockquote>
 <p>Important Notes<br>
 A) If you have an existing ssh configuration, make a copy of the /etc/ssh directory before installing the new ssh to preserve the ssh host keys. If this is a new installation of ssh there will not be an /etc/ssh directory.<br>
