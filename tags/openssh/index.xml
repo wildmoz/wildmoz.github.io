@@ -13,7 +13,7 @@
       <pubDate>Sat, 02 Jan 2021 13:45:08 +0800</pubDate>
       
       <guid>https://blog.geeklife.xyz/posts/aix_upgrade_openssh/</guid>
-      <description>aix_upgrade_openssh 1. Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link{:target=&amp;quot;_blank&amp;quot;}
+      <description>aix_upgrade_openssh 1. Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following [download link](https://www-01.ibm.com/marketing/iwm/platform/mrs/assets?source=aixbp &amp;ldquo;title&amp;rdquo; target=&amp;quot;_blank&amp;quot;)
  Register for a user ID at the site if you do not have an account  2. Create directory to hold openssl and openssh.
  Example:
 % mkdir /tmp/newopenssl
