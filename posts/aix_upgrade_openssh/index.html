@@ -6,10 +6,12 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="aix_upgrade_openssh  Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link Create directory to hold openssl and openssh.   Example:
+<meta name="description" content="aix_upgrade_openssh 1. Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link 2. Create directory to hold openssl and openssh.
+ Example:
 % mkdir /tmp/newopenssl
 % mkdir /tmp/newopenssh
- 3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.  Important Notes
+ 3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.
+ Important Notes
 A) If you have an existing ssh configuration, make a copy of the /etc/ssh directory before installing the new ssh to preserve the ssh host keys." />
 <meta name="keywords" content=", " />
 <meta name="robots" content="noodp" />
@@ -134,7 +136,7 @@ A) If you have an existing ssh configuration, make a copy of the /etc/ssh direct
       
     
     
-    <span class="post-word-count"> 526 words</span>
+    <span class="post-word-count"> 536 words</span>
   </div>
 
   
@@ -155,17 +157,15 @@ A) If you have an existing ssh configuration, make a copy of the /etc/ssh direct
 
   <div class="post-content"><div>
         <h2 id="aix_upgrade_openssh">aix_upgrade_openssh<a href="#aix_upgrade_openssh" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<ol>
-<li>Download the latest available &ldquo;OpenSSL or OpenSSH n.n.n&rdquo; for your AIX version from the following
-<a href="https://www-01.ibm.com/marketing/iwm/platform/mrs/assets?source=aixbp">download link</a></li>
-<li>Create directory to hold openssl and openssh.</li>
-</ol>
+<p>1. Download the latest available &ldquo;OpenSSL or OpenSSH n.n.n&rdquo; for your AIX version from the following
+<a href="https://www-01.ibm.com/marketing/iwm/platform/mrs/assets?source=aixbp">download link</a>
+2. Create directory to hold openssl and openssh.</p>
 <blockquote>
 <p>Example:<br>
 % mkdir /tmp/newopenssl<br>
 % mkdir /tmp/newopenssh</p>
 </blockquote>
-<h3 id="3-if-etcssh-exists-before-the-upgrade-of-openssh-or-aix-make-a-back-up-of-the-directory--skip-steps-3-and-9-10-if-openssh-is-not-installed">3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory.  Skip steps 3 and 9-10 if OpenSSH is not installed.<a href="#3-if-etcssh-exists-before-the-upgrade-of-openssh-or-aix-make-a-back-up-of-the-directory--skip-steps-3-and-9-10-if-openssh-is-not-installed" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory.  Skip steps 3 and 9-10 if OpenSSH is not installed.</p>
 <blockquote>
 <p>Important Notes<br>
 A) If you have an existing ssh configuration, make a copy of the /etc/ssh directory before installing the new ssh to preserve the ssh host keys. If this is a new installation of ssh there will not be an /etc/ssh directory.<br>
@@ -173,9 +173,7 @@ A) If you have an existing ssh configuration, make a copy of the /etc/ssh direct
 B) Read the following technote for details about changes in OpenSSH Version 7.<br>
 <a href="https://www.ibm.com/support/pages/ibm-aix-various-ssh-problems-after-upgrading-openssh-7x">https://www.ibm.com/support/pages/ibm-aix-various-ssh-problems-after-upgrading-openssh-7x</a></p>
 </blockquote>
-<ol start="4">
-<li>Prepare the openssl software for installation.</li>
-</ol>
+<p>4. Prepare the openssl software for installation.</p>
 <blockquote>
 <p>% cd /tmp/newopenssl
 % uncompress
@@ -186,9 +184,7 @@ openssl-1.0.2.1801.tar.Z</p>
 openssl-1.0.2.1801.tar
 % cd <!-- raw HTML omitted --></p>
 </blockquote>
-<ol start="5">
-<li>Install the openssl software.</li>
-</ol>
+<p>5. Install the openssl software.</p>
 <blockquote>
 <p>% smitty install_all INPUT device / directory for software [.] &ndash;输入软件所在目录路径<br>
 <!-- raw HTML omitted --> * INPUT device / directory for software . * SOFTWARE to install []
@@ -198,17 +194,13 @@ Select with F7: openssl.base openssl.license openssl.man.en_US
 <!-- raw HTML omitted --> ACCEPT new license agreements? yes
 <!-- raw HTML omitted --></p>
 </blockquote>
-<ol start="6">
-<li>Prepare the openssh software for installation.</li>
-</ol>
+<p>6.  Prepare the openssh software for installation.</p>
 <blockquote>
 <p>% cd 软件存放路径<br>
 % uncompress OpenSSH_7.5.102.1801.tar.Z<br>
 % tar -xvf OpenSSH_7.5.102.1801.tar</p>
 </blockquote>
-<ol start="7">
-<li>Install the openssh software.</li>
-</ol>
+<p>7. Install the openssh software.</p>
 <blockquote>
 <p>% cd <!-- raw HTML omitted --><br>
 % smitty install_all INPUT device / directory for software [.]
@@ -221,9 +213,7 @@ Select with F7: openssh.base openssh.license openssh.man.en_US openssh.msg.EN_US
 <!-- raw HTML omitted --> ACCEPT new license agreements? yes
 <!-- raw HTML omitted --></p>
 </blockquote>
-<ol start="8">
-<li>If the installation was successful, sshd is now active.</li>
-</ol>
+<p>8. If the installation was successful, sshd is now active.</p>
 <blockquote>
 <p>% lssrc -g sshd
 This should result in an &ldquo;active&rdquo; status, indicating it is ready to accept ssh connections</p>
@@ -232,17 +222,11 @@ This should result in an &ldquo;active&rdquo; status, indicating it is ready to 
 <p>NOTE: SSHD is called from /etc/rc.d/rc2.d/Ssshd script at boot up. The Ssshd script is called from the l2 entry in /etc/inittab
 &ndash;&gt; l2:2:wait:/etc/rc.d/rc2.d</p>
 </blockquote>
-<ol start="9">
-<li>
-<p>Update the virtual AIX-rpm package.<br>
+<p>9. Update the virtual AIX-rpm package.<br>
 Since many Open Source packages rely on OpenSSL, it recommended to run the following command, which will update your virtual AIX-rpm package so the rpm installer will be aware of the new or updated libraries:
 % /usr/sbin/updtvpkg<br>
 *** Skip steps 10 and 11 if this is a new SSH installation.</p>
-</li>
-<li>
-<p>Restore or update ssh host keys and config files.</p>
-</li>
-</ol>
+<p>10. Restore or update ssh host keys and config files.</p>
 <blockquote>
 <p>% cd /etc/ssh
 Backup the newly installed ssh_config and sshd_config files.
@@ -261,9 +245,7 @@ Backup the newly installed ssh_config and sshd_config files.
 <p>Alternatively (not recommended), you can restore the previous config files:<br>
 % cd /etc/ssh_backup<br>
 % cp -pr sshd_config ssh_config /etc/ssh</p>
-<ol start="11">
-<li>Stop and restart sshd to read the updated config files.</li>
-</ol>
+<p>11. Stop and restart sshd to read the updated config files.</p>
 <p>To stop sshd from the command line:</p>
 <blockquote>
 <p>% stopsrc -s sshd

@@ -13,10 +13,12 @@
       <pubDate>Sat, 02 Jan 2021 13:45:08 +0800</pubDate>
       
       <guid>https://blog.geeklife.xyz/posts/aix_upgrade_openssh/</guid>
-      <description>aix_upgrade_openssh  Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link Create directory to hold openssl and openssh.   Example:
+      <description>aix_upgrade_openssh 1. Download the latest available &amp;ldquo;OpenSSL or OpenSSH n.n.n&amp;rdquo; for your AIX version from the following download link 2. Create directory to hold openssl and openssh.
+ Example:
 % mkdir /tmp/newopenssl
 % mkdir /tmp/newopenssh
- 3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.  Important Notes
+ 3. If /etc/ssh exists before the upgrade of OpenSSH or AIX, make a back up of the directory. Skip steps 3 and 9-10 if OpenSSH is not installed.
+ Important Notes
 A) If you have an existing ssh configuration, make a copy of the /etc/ssh directory before installing the new ssh to preserve the ssh host keys.</description>
     </item>
     
